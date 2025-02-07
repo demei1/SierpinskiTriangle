@@ -21,7 +21,6 @@ public void mousePressed()//optional
 {
   colorChange = true;
   baseLen = baseLen + 150;
-  System.out.print(baseLen);
   if ( baseLen == 2700){
   baseLen = 1200;
   }
@@ -37,7 +36,6 @@ public void mousePressed()//optional
   else 
   colorR = (int)(Math.random()*255);
   
-  System.out.println("pressed");
 }
 public void sierpinski(int x, int y, int len) 
 {
